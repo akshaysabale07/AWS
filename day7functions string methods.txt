@@ -1,0 +1,48 @@
+functoins
+var x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+function myFunction(a, b) {
+  return a * b;             // Function returns the product of a and b
+}
+The result in x will be:
+
+12
+
+String Functions
+
+var txt = "ABCDEF";
+var sln = txt.length;
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+
+The result of res will be:
+
+Banana
+
+
+
+
+str = "Please visit Microsoft and Microsoft!";
+var n = str.replace("Microsoft", "CDAC");
+
+var text1 = "Hello World!";       // String
+var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+
+
+
+var str = "       Hello World!        ";
+alert(str.trim());
+
+
+var str = "HELLO WORLD";
+str.charAt(0);            // returns H
+
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe
