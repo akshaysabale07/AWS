@@ -1,0 +1,48 @@
+Array Fundamental - Add, Updated, Delete, Access Operation
+let arr = [];
+
+
+let arr = [1, 2, 3];
+let arr = ["A", "B", "C"];
+let arr = [1.1, 2.2, 3.3];
+
+
+let arr = [1, "A", 3.14, true];
+
+
+let arr = [1, "A", 3.14, true, () => {}, 11, function () {}];
+
+
+
+
+let firstItem = arr[0]; 
+let anyItem = arr[3]; 
+
+
+for (let i = 0; i < arr.length; i++) {
+  const item = arr[i];
+  console.log(item); 
+}
+
+
+let arr = ["Tejas", "Sachin", "Omkar", "Umesh", "Yaminee"];
+
+arr.push("Sanam");
+
+arr.pop();
+
+arr[0] = "Tejasss";
+
+
+
+
+let arr = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr.length; i++) {
+  const item = arr[i];
+  console.log(item); // print or use it logic purpose
+}
+
+
+
+
+
